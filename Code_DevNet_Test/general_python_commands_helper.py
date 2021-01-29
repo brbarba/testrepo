@@ -1,5 +1,5 @@
 Bruno Barba (brbarba)
-
+bruno.barba@gmail.com
 
 curl  https://deckofcardsapi.com/api/deck/new/
 curl https://deckofcardsapi.com/api/deck/new/ | python -m json.tool
@@ -39,3 +39,6 @@ def print_info(modules):
                                                            serialNumber=module['serialNumber'],
                                                            partNumber=module['partNumber'],
                                                            moduleType=module['isFieldReplaceable']))
+
+
+yum -y install https://download.docke r.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
