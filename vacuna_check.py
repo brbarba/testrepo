@@ -36,6 +36,6 @@ try:
         notify_user()
     else:
         # logging.info('Website is UP')
-except Exception as e:
+#except Exception as e:
     # logging.info('Website is DOWN!')
-    notify_user()
+#    notify_user()
